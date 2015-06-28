@@ -1,0 +1,12 @@
+repositories {
+    mavenCentral()
+}
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    compile 'commons-codec:commons-codec:1.10'
+}
