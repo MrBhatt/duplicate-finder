@@ -1,0 +1,50 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+build/
+bin/
+
+# IDE specific files #
+*.classpath
+*.project
+*.springBeans
+.settings/
+.DS_Store
+*.iml
+*.iws
+/.idea
+/.nb-gradle
+
+.gradle/
+
+# Maven
+pom.xml
+
+# Gradle Wrapper
+!gradle/
+cache/
+
+# Dev properties
+/bin/
+
+# Prevent committing Eclipse generated .gitignore files
+*-api/.gitignore
+*-core/.gitignore
+*-data/.gitignore
+*-services/.gitignore
+
+# Elesticsearch embedded
+foundation-*/data/
+data
+
+# do not commit version.properties
+foundation-api/src/main/resources/version.properties
+
+gradle/AppServerAgent
+
+.nb-gradle-properties
